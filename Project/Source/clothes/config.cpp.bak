@@ -1,0 +1,27 @@
+class CfgPatches
+{
+	class_Clothes
+	{
+		units[]={};
+		weapons[]={};
+		requiredVersion=0.1;
+		redquiredAddons[]={"DZ_Data"};
+		
+	};
+	
+};
+
+class CfgVehicles
+{
+	class TPants_ColorBase;
+	 
+	 class TPants_mypants: TShirt_ColorBase 
+	 {
+		 scope=2;
+		 hiddenSelectionsTextures[]=
+		 {
+			 "project"
+		 }
+	 };
+	
+};
